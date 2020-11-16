@@ -11,6 +11,7 @@
         <h1>Calculadora geográfica</h1>
         <section>
             <table>	
+                <h2>Datos</h2>
                 <tbody><tr>
                     <td> Radio Equatorial (metros) </td>
                     <td> <input type="text" id="EqRadBox" size="10" maxlength="10" value = 6378388 disabled></td>
@@ -29,27 +30,27 @@
             <h2>Conversor de grados, minutos y segundos a UTM</h2>
                 <h3>Latitud</h3>
                     <h4>En grados</h4>
-                        <input type="text" name="latG" id="latG"> º </input>
+                        <input type="text" name="latG" id="latG"> º 
                     <h4>En grados, minutos y segundos</h4>
-                        <input type="text" name="latG-M-SG" id="latG-M-SG"> º </input>
-                        <input type="text" name="latG-M-SM" id="latG-M-SM"> ' </input>
-                        <input type="text" name="latG-M-SS" id="latG-M-SS"> ''</input>
+                        <input type="text" name="latG-M-SG" id="latG-M-SG"> º 
+                        <input type="text" name="latG-M-SM" id="latG-M-SM"> ' 
+                        <input type="text" name="latG-M-SS" id="latG-M-SS"> ''
                 <h3>Latitud</h3>
                     <h4>En grados</h4>
-                        <input type="text" name="lonG" id="lonG"> º </input>
+                        <input type="text" name="lonG" id="lonG"> º 
                     <h4>En grados, minutos y segundos</h4>
-                        <input type="text" name="lonG-M-SG" id="lonG-M-SG"> º </input>
-                        <input type="text" name="lonG-M-SM" id="lonG-M-SM"> ' </input>
-                        <input type="text" name="lonG-M-SS" id="lonG-M-SS"> '' </input>
-                    <input type="button" value="Convertir a UTM" onclick="GeogToUTM()"> </input>
+                        <input type="text" name="lonG-M-SG" id="lonG-M-SG"> º 
+                        <input type="text" name="lonG-M-SM" id="lonG-M-SM"> ' 
+                        <input type="text" name="lonG-M-SS" id="lonG-M-SS"> ''
+                    <input type="button" value="Convertir a UTM" onclick="GeogToUTM()"> 
         </section>
         <section>
             <h2>Conversor de UTM a grados, minutos y segundos</h2>
-                <input type="text" name="este" id="este"> Este </input>
-                <input type="text" name="norte" id="norte"> Norte </input>
-                <input type="text" name="zona" id="zona"> Zona </input>
-                <input type="checkbox" id="box"> Sur del Equador </input>
-                <input type="button" value="Convertir a grados" onclick="UTMtoGeog()"> </input>
+                <input type="text" name="este" id="este"> Este 
+                <input type="text" name="norte" id="norte"> Norte 
+                <input type="text" name="zona" id="zona"> Zona 
+                <input type="checkbox" id="box"> Sur del Equador 
+                <input type="button" value="Convertir a grados" onclick="UTMtoGeog()">
         </section>   
     </body>
 </html>
