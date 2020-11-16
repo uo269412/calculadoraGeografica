@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Tiempo en tres localidades</title>
+        <title>Calculadora geográfica</title>
         <link rel="stylesheet" type="text/css" href="Ejercicio6.css" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="Ejercicio6.js"></script>
@@ -24,26 +24,38 @@
             <h2>Conversor de grados, minutos y segundos a UTM</h2>
                 <h3>Latitud</h3>
                     <h4>En grados</h4>
-                        <input type="text" name="latG" id="latG"> º 
+                        <p> Grados (º) </p>
+                        <input type="text" name="latG" id="latG">
                     <h4>En grados, minutos y segundos</h4>
-                        <input type="text" name="latG-M-SG" id="latG-M-SG"> º 
-                        <input type="text" name="latG-M-SM" id="latG-M-SM"> ' 
-                        <input type="text" name="latG-M-SS" id="latG-M-SS"> ''
+                        <p> Grados (º) </p>
+                        <input type="text" name="latG-M-SG" id="latG-M-SG">
+                        <p> Minutos (') </p>
+                        <input type="text" name="latG-M-SM" id="latG-M-SM"> 
+                        <p> Segundos ('') </p>
+                        <input type="text" name="latG-M-SS" id="latG-M-SS"> 
                 <h3>Latitud</h3>
                     <h4>En grados</h4>
-                        <input type="text" name="lonG" id="lonG"> º 
+                        <p> Grados (º) </p>
+                        <input type="text" name="lonG" id="lonG">
                     <h4>En grados, minutos y segundos</h4>
-                        <input type="text" name="lonG-M-SG" id="lonG-M-SG"> º 
-                        <input type="text" name="lonG-M-SM" id="lonG-M-SM"> ' 
-                        <input type="text" name="lonG-M-SS" id="lonG-M-SS"> ''
+                        <p> Grados (º) </p>
+                        <input type="text" name="lonG-M-SG" id="lonG-M-SG"> 
+                        <p> Minutos (') </p> 
+                        <input type="text" name="lonG-M-SM" id="lonG-M-SM"> 
+                        <p> Segundos ('') </p>
+                        <input type="text" name="lonG-M-SS" id="lonG-M-SS"> 
                     <input type="button" value="Convertir a UTM" onclick="GeogToUTM()"> 
         </section>
         <section>
             <h2>Conversor de UTM a grados, minutos y segundos</h2>
-                <input type="text" name="este" id="este"> Este 
-                <input type="text" name="norte" id="norte"> Norte 
-                <input type="text" name="zona" id="zona"> Zona 
-                <input type="checkbox" id="box"> Sur del Equador 
+                <p>Este</p>
+                <input type="text" name="este" id="este"> 
+                <p>Norte</p>
+                <input type="text" name="norte" id="norte">
+                <p>Zona</p>
+                <input type="text" name="zona" id="zona">
+                <p>Sur del Equador</p> 
+                <input type="checkbox" id="box"> 
                 <input type="button" value="Convertir a grados" onclick="UTMtoGeog()">
         </section>   
     </body>
