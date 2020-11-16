@@ -14,18 +14,18 @@ h1 {
     padding: 120px 10px;
     text-align: center; 
     font-size: 400%;
-    background-color: rgb(5, 56, 16);
+    background-color: rgb(0, 0, 0);
     background-position: top right;
 }
 /*001*/
 h2 {
-    color:rgb(5, 56, 16);
+    color:rgb(0, 0, 0)
     font-size: 2em;
     text-transform: uppercase;
 }
 /*001*/
 h3 {
-    color:rgb(5, 56, 16);
+    color:rgb(0, 0, 0);
     font-size: 1.5em;
     text-transform: uppercase;
 }
@@ -33,22 +33,4 @@ h4{
     color:rgb(0, 0, 0);
     font-size: 1.2em;
     text-transform: uppercase;
-}
-/*001*/
-footer {
-    text-align: center;
-}
-section {
-    border-radius: 2em;
-    padding: 2em;
-    margin: 2em;
-    background-color: rgb(218, 236, 217);
-}
-/*001*/
-ul {
-    list-style-type: circle;
-}
-/*001*/
-li {
-    padding: 0.5em;
 }
